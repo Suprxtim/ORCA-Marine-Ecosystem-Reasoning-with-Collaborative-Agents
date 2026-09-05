@@ -1,0 +1,62 @@
+{
+    "date": "2026-09-05",
+    "region": "Gujarat Coast (Sample)",
+    "locations": {
+        "Harbor_Point": {
+            "lat": 22.0,
+            "lon": 69.5,
+            "wind_speed_knots": 12.5,
+            "wave_height_meters": 1.2,
+            "lightning_risk": "Low",
+            "cyclone_alert": false
+        },
+        "Zone_A_Nearshore": {
+            "lat": 21.5,
+            "lon": 69.0,
+            "wind_speed_knots": 18.0,
+            "wave_height_meters": 2.5,
+            "lightning_risk": "Medium",
+            "cyclone_alert": false
+        },
+        "Zone_B_Offshore": {
+            "lat": 21.0,
+            "lon": 68.5,
+            "wind_speed_knots": 35.0,
+            "wave_height_meters": 4.8,
+            "lightning_risk": "High",
+            "cyclone_alert": true
+        },
+        "Gulf_Kutch_Inner": {
+            "lat": 22.6,
+            "lon": 69.8,
+            "wind_speed_knots": 8.0,
+            "wave_height_meters": 0.5,
+            "lightning_risk": "Low",
+            "cyclone_alert": false
+        },
+        "Gulf_Kutch_Outer": {
+            "lat": 22.4,
+            "lon": 69.1,
+            "wind_speed_knots": 14.2,
+            "wave_height_meters": 1.8,
+            "lightning_risk": "Low",
+            "cyclone_alert": false
+        },
+        "Porbandar_Coast": {
+            "lat": 21.6,
+            "lon": 69.6,
+            "wind_speed_knots": 16.5,
+            "wave_height_meters": 2.1,
+            "lightning_risk": "Medium",
+            "cyclone_alert": false
+        },
+        "Dwarka_Offshore": {
+            "lat": 22.2,
+            "lon": 68.9,
+            "wind_speed_knots": 22.0,
+            "wave_height_meters": 3.4,
+            "lightning_risk": "High",
+            "cyclone_alert": false
+        }
+    }
+}

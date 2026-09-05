@@ -1,0 +1,55 @@
+{
+    "date": "2026-09-05",
+    "region": "Gujarat Coast (Sample)",
+    "locations": {
+        "Harbor_Point": {
+            "lat": 22.0,
+            "lon": 69.5,
+            "sst_celsius": 28.5,
+            "chlorophyll_mg_m3": 1.2,
+            "is_pfz": false
+        },
+        "Zone_A_Nearshore": {
+            "lat": 21.5,
+            "lon": 69.0,
+            "sst_celsius": 27.2,
+            "chlorophyll_mg_m3": 4.5,
+            "is_pfz": true
+        },
+        "Zone_B_Offshore": {
+            "lat": 21.0,
+            "lon": 68.5,
+            "sst_celsius": 26.8,
+            "chlorophyll_mg_m3": 0.8,
+            "is_pfz": false
+        },
+        "Gulf_Kutch_Inner": {
+            "lat": 22.6,
+            "lon": 69.8,
+            "sst_celsius": 29.1,
+            "chlorophyll_mg_m3": 2.1,
+            "is_pfz": false
+        },
+        "Gulf_Kutch_Outer": {
+            "lat": 22.4,
+            "lon": 69.1,
+            "sst_celsius": 28.2,
+            "chlorophyll_mg_m3": 3.8,
+            "is_pfz": true
+        },
+        "Porbandar_Coast": {
+            "lat": 21.6,
+            "lon": 69.6,
+            "sst_celsius": 27.5,
+            "chlorophyll_mg_m3": 5.2,
+            "is_pfz": true
+        },
+        "Dwarka_Offshore": {
+            "lat": 22.2,
+            "lon": 68.9,
+            "sst_celsius": 26.5,
+            "chlorophyll_mg_m3": 1.1,
+            "is_pfz": false
+        }
+    }
+}

@@ -1,0 +1,88 @@
+:root {
+  --bg-dark: #0a1128;
+  --panel-bg: rgba(16, 30, 60, 0.7);
+  --panel-border: rgba(0, 200, 255, 0.2);
+  --text-primary: #e0f0ff;
+  --text-secondary: #8ab4f8;
+  --accent: #00e5ff;
+  --alert-red: #ff5252;
+  --alert-bg: rgba(255, 82, 82, 0.15);
+  --success: #69f0ae;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+  height: 100vh;
+  overflow: hidden;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 229, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 100% 100%, rgba(0, 50, 100, 0.5) 0%, transparent 50%);
+}
+
+#root {
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  gap: 1rem;
+}
+
+/* Glassmorphism Panel */
+.glass-panel {
+  background: var(--panel-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Layout Columns */
+.chat-column {
+  flex: 0 0 350px;
+}
+
+.map-column {
+  flex: 1;
+}
+
+.reasoning-column {
+  flex: 0 0 350px;
+}
+
+/* Header */
+.panel-header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--panel-border);
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 200, 255, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 200, 255, 0.4);
+}

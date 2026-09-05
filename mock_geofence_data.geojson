@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_type": "MPA",
+        "zone_name": "Gulf of Kutch Marine Sanctuary"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [69.0, 22.4],
+            [69.6, 22.4],
+            [69.6, 22.8],
+            [69.0, 22.8],
+            [69.0, 22.4]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_type": "IMBL",
+        "zone_name": "India-Pakistan IMBL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [68.5, 23.5],
+          [68.0, 23.0],
+          [67.5, 22.5],
+          [67.0, 22.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_type": "restricted_waters",
+        "zone_name": "Naval Firing Zone Alpha"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [69.3, 21.5],
+            [69.6, 21.5],
+            [69.6, 21.7],
+            [69.3, 21.7],
+            [69.3, 21.5]
+          ]
+        ]
+      }
+    }
+  ]
+}
